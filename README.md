@@ -4,9 +4,10 @@ Statamic Image Minifier via TinyPNG/TinyJPG API
 TinyPNG/TinyJPG Image minifier API ADDON for Statamic
 
 This ADD-ON uses the API from www.tinypng.com to minify your JPG or PNG images.
-*You need to have an API-Key from www.tinypng.com*
 
-There is a free subscription-plan with no max. file-size and free 500 images minifing per month.
+**You need to have an API-Key from www.tinypng.com**
+
+There is a **free subscription-plan** with no max. file-size and free 500 images minifing per month.
 
 # Install
 Copy all files in your statamic _add-ons/ folder
