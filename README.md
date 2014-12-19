@@ -23,7 +23,7 @@ _tiny_key: "YOUR_TINYPNG_API_KEY"
 ```
 
 # Use
-Use it as you'd use your {{ transform }} tag withing statamic, the only difference is that this only works with JPG/PNG-Files:
+Use it as you'd use your {{ transform }} tag within statamic, the only difference is that this only works with JPG/PNG-Files and the quality should allways be set as 100 or none at all (because it's default setting is 100 ;):
 ```HTML
 {{ tiny src="{ your_image }" }}
 ```
