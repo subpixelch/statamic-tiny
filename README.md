@@ -16,7 +16,7 @@ Copy all files in your statamic _add-ons/ folder
 
 
 #Config
-Add a line to your main Statamic settings.yaml file:
+Add this line to your main Statamic settings.yaml file:
 ```YAML
 _tiny_key: "YOUR_TINYPNG_API_KEY"
 ```
@@ -24,6 +24,6 @@ _tiny_key: "YOUR_TINYPNG_API_KEY"
 # Use
 Use it as you'd use your {{ transform }} tag withing statamic, the only difference is that this only works with JPG/PNG-Files:
 ```HTML
-{{ tiny src="{ your_image} }}
+{{ tiny src="{ your_image}" }}
 ```
 
