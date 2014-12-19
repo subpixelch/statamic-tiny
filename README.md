@@ -25,6 +25,6 @@ _tiny_key: "YOUR_TINYPNG_API_KEY"
 # Use
 Use it as you'd use your {{ transform }} tag withing statamic, the only difference is that this only works with JPG/PNG-Files:
 ```HTML
-{{ tiny src="{ your_image}" }}
+{{ tiny src="{ your_image }" }}
 ```
 
